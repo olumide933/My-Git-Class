@@ -1,0 +1,24 @@
+.gridContainer{
+background-color:yellow;
+display:grid;
+height:100vh;
+grid-template-columns:repeat(4,1fr)
+
+}
+section{
+background-color:blue;
+height:200px;
+margin:10px;
+
+}
+
+@media only screen and (max-width:768px){
+.gridContainer{background-color:hotpink;
+grid-template-columns:repeat(3,1fr)
+}
+}
+@media only screen and (max-width:500px){
+.gridContainer{background-color:green;
+grid-template-columns:repeat(2,1fr)
+}
+}
